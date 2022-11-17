@@ -1,0 +1,99 @@
+.header-text {
+    margin-top: 40px;
+    font-weight: 700;
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+}
+
+.main-image {
+    width: 540px;
+    height: 450px !important;
+    margin: auto;
+}
+
+.main-message {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 95px;
+    font-family: 'Space Mono', monospace;
+}
+
+.sub-message {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: 'Space Mono', monospace;
+    width: 390px;
+    margin-top: 36px;
+}
+
+.back-to-home-btn {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Space Mono', monospace;
+    width: 220px;
+    height: 70px;
+    color: #FFFFFF;
+    background: #333333;
+    margin-top: 62px;
+}
+
+.footer-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    text-align: center;
+}
+
+.main-container {
+    height: 91vh;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .main-message {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        font-family: 'Space Mono', monospace;
+        letter-spacing: -3.5px;
+        margin-top: 60px;
+    }
+
+    .sub-message {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        font-family: 'Space Mono', monospace;
+        width: 328px;
+        margin-top: 30px;
+    }
+
+    .back-to-home-btn {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        font-family: 'Space Mono', monospace;
+        width: 220px;
+        height: 70px;
+        color: #FFFFFF;
+        background: #333333;
+        margin-top: 66px;
+    }
+
+    .main-image {
+        width: 286px;
+        height: 238px !important;
+        margin: auto;
+    }
+
+    .footer-text {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        color: #BDBDBD;
+        text-align: center;
+        margin-top: 114px;
+    }
+}
